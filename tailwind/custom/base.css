@@ -1,0 +1,81 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `base` layer
+ *
+ * “Add things like base typography styles [or] opinionated global resets.”
+ *
+ * — from https://tailwindcss.com/docs/plugins#adding-base-styles
+ */
+
+/**
+ * This uses the background and foreground colors declared in the
+ * `theme.json` file and is applied both to the frontend and in the block
+ * editor.
+*/
+body {
+	@apply bg-background text-foreground font-sans;
+	scroll-behavior: smooth;
+	font-size: 20px;
+	font-family: 'Geologica', sans-serif;
+}
+
+.menu {
+	display: flex;
+	gap: var(--menu--gap, 40px);
+}
+
+.menu-item:hover {
+	color: #bada55;
+}
+
+.lang-switcher {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	gap: 10px;
+}
+
+* {
+	transition: all .3s;
+}
+
+.track {
+  position: absolute;
+	top: 12px;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 120s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+a {
+	cursor: pointer;
+}
+
+.mobile-shown {
+	display: block !important;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #f39500;
+	width: 100%;
+}
+
+.mobile-shown .menu {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 20px;
+	width: 100%;
+}
+
+.splide__arrow--prev {
+	left: -3em;
+}
+
+.splide__arrow--next {
+	right: -3em;
+}
