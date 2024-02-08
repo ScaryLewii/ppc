@@ -15,16 +15,16 @@ get_header();
 <section class="py-20 bg-fixed bg-cover bg-[40%] bg-no-repeat min-h-[40vh] flex items-center relative"
 	style="background-image: url(<?= $bg ?>)"
 >
-	<div class="max-w-[950px] mx-auto">
-		<h1 class="flex gap-3 text-[36px] text-left justify-start font-semibold text-white w-[950px] max-w-full">
-			<img src="<?= PPC_IMG . '/heading-tag-white.svg' ?>" alt="tag" width="50px" height="30px">
+	<div class="container">
+		<h1 class="flex items-center gap-3 text-[36px] font-semibold text-white w-[950px] max-w-full">
+			<img src="<?= PPC_IMG . '/heading-tag-white.svg' ?>" class="mt-3" alt="tag" width="66px" height="63px">
 			<?= $title ?>
 		</h1>
 	</div>
 </section>
 
 <section class="py-20 bg-light">
-	<div class="max-w-[950px] mx-auto mb-20">
+	<div class="container mb-20">
 		<h2 class="text-green font-semibold">Từ khóa</h2>
 
 		<div class="flex gap-3 mt-10">
@@ -37,7 +37,7 @@ get_header();
 			<?php endforeach; ?>
 		</div>
 	</div>
-	<div class="max-w-[950px] mx-auto grid grid-cols-4 gap-5">
+	<div class="container grid grid-cols-4 gap-5">
 		<?php
 		while (have_posts()) :
 			the_post();

@@ -196,7 +196,7 @@ if ( ! function_exists( 'ppc_post_thumbnail' ) ) :
 		if ( is_singular() ) :
 			?>
 
-			<figure>
+			<figure class="text-center flex flex-col justify-center items-center">
 				<?php the_post_thumbnail(); ?>
 			</figure><!-- .post-thumbnail -->
 

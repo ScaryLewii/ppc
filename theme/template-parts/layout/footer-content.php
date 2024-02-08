@@ -41,55 +41,57 @@
 	</div>
 </section>
 
-<section class="container grid grid-cols-2 gap-[100px] py-20 text-blue">
-	<div>
-		<img class="w-28" src="<?= site_url('/wp-content/uploads/2024/01/Logo-Unilever-Te.png') ?>" alt="UNILEVER">
-		<div class="text-18px font-semibold my-5">Thông tin liên hệ của Unilever</div>
-		<h2 class="text-[18px] uppercase my-4">UNILEVER (VIỆT NAM)</h2>
+<section class="py-20 text-blue bg-light">
+	<div class="container grid grid-cols-2 gap-[100px]">
 		<div>
-		Số 156 Nguyễn Lương Bằng, Phường Tân Phú,<br/>
-		Quận 7, TP. Hồ Chí Minh, Việt Nam
+			<img class="w-28" src="<?= site_url('/wp-content/uploads/2024/01/Logo-Unilever-Te.png') ?>" alt="UNILEVER">
+			<div class="text-18px font-semibold my-5">Thông tin liên hệ của Unilever</div>
+			<h2 class="text-[18px] uppercase my-4">UNILEVER (VIỆT NAM)</h2>
+			<div>
+			Số 156 Nguyễn Lương Bằng, Phường Tân Phú,<br/>
+			Quận 7, TP. Hồ Chí Minh, Việt Nam
+			</div>
+			<a href="tel:02854135686">Điện thoại: (028) 54135686</a>
+
+			<div class="flex items-center gap-4 [&>a>img]:w-[30px] mt-5">
+				<a href="" target="_blank">
+					<img src="<?= PPC_IMG . "/instagram.webp" ?>" />
+				</a>
+				<a href="" target="_blank">
+					<img src="<?= PPC_IMG . "/youtube.webp" ?>" />
+				</a>
+				<a href="" target="_blank">
+					<img src="<?= PPC_IMG . "/twitter.webp" ?>" />
+				</a>
+				<a href="" target="_blank">
+					<img src="<?= PPC_IMG . "/facebook.webp" ?>" />
+				</a>
+			</div>
 		</div>
-		<a href="tel:02854135686">Điện thoại: (028) 54135686</a>
 
-		<div class="flex items-center gap-4 [&>a>img]:w-[30px] mt-5">
-			<a href="" target="_blank">
-				<img src="<?= PPC_IMG . "/instagram.webp" ?>" />
-			</a>
-			<a href="" target="_blank">
-				<img src="<?= PPC_IMG . "/youtube.webp" ?>" />
-			</a>
-			<a href="" target="_blank">
-				<img src="<?= PPC_IMG . "/twitter.webp" ?>" />
-			</a>
-			<a href="" target="_blank">
-				<img src="<?= PPC_IMG . "/facebook.webp" ?>" />
-			</a>
-		</div>
-	</div>
+		<div>
+			<img class="w-28" src="<?= site_url('/wp-content/uploads/2024/01/99e640_36546d8ca1a04158882123d76ea285ffmv2.webp') ?>" alt="Tai nguyen va moi truong">
+			
+			<div class="text-18px font-semibold my-5">Thông tin liên hệ của Bộ TNMT</div>
+			
+			<h2 class="text-[18px] uppercase my-4">BỘ TÀI NGUYÊN VÀ MÔI TRƯỜNG</h2>
+			<div>Số 10 Tôn Thất Thuyết, Nam Từ Liêm,<br/> Hà Nội, Việt Nam</div>
+			<a href="tel:02437956868">Điện thoại: (0243) 7956868</a>
 
-	<div>
-		<img class="w-28" src="<?= site_url('/wp-content/uploads/2024/01/99e640_36546d8ca1a04158882123d76ea285ffmv2.webp') ?>" alt="Tai nguyen va moi truong">
-		
-		<div class="text-18px font-semibold my-5">Thông tin liên hệ của Bộ TNMT</div>
-		
-		<h2 class="text-[18px] uppercase my-4">BỘ TÀI NGUYÊN VÀ MÔI TRƯỜNG</h2>
-		<div>Số 10 Tôn Thất Thuyết, Nam Từ Liêm,<br/> Hà Nội, Việt Nam</div>
-		<a href="tel:02437956868">Điện thoại: (0243) 7956868</a>
-
-		<div class="flex items-center gap-4 [&>a>img]:w-[30px] mt-5">
-			<a href="" target="_blank">
-				<img src="<?= PPC_IMG . "/instagram.webp" ?>" />
-			</a>
-			<a href="" target="_blank">
-				<img src="<?= PPC_IMG . "/youtube.webp" ?>" />
-			</a>
-			<a href="" target="_blank">
-				<img src="<?= PPC_IMG . "/twitter.webp" ?>" />
-			</a>
-			<a href="" target="_blank">
-				<img src="<?= PPC_IMG . "/facebook.webp" ?>" />
-			</a>
+			<div class="flex items-center gap-4 [&>a>img]:w-[30px] mt-5">
+				<a href="" target="_blank">
+					<img src="<?= PPC_IMG . "/instagram.webp" ?>" />
+				</a>
+				<a href="" target="_blank">
+					<img src="<?= PPC_IMG . "/youtube.webp" ?>" />
+				</a>
+				<a href="" target="_blank">
+					<img src="<?= PPC_IMG . "/twitter.webp" ?>" />
+				</a>
+				<a href="" target="_blank">
+					<img src="<?= PPC_IMG . "/facebook.webp" ?>" />
+				</a>
+			</div>
 		</div>
 	</div>
 </section>

@@ -18,7 +18,7 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;300,400,600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;600&display=swap" rel="stylesheet">
 
 	<script src="
 	https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js

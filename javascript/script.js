@@ -21,7 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
 	document.querySelectorAll('.splide').forEach(el => {
 		new Splide( el, {
 			perPage: 5,
-			gap: '20px'
+			gap: '20px',
+			focus: 'center',
 		} ).mount();
 	})
 })

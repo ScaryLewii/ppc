@@ -8,7 +8,7 @@ endforeach;
 
 
 <section class="grid grid-cols-2">
-	<div class="bg-fixed bg-cover bg-center bg-no-repeat"
+<div class="bg-fixed bg-cover bg-center bg-no-repeat"
 		style="background-image: url(<?= $bg ?>)"
 	>
 
@@ -23,6 +23,15 @@ endforeach;
 			</div>
 			<div class="text-[20px] leading-[30px] mt-[50px]">
 Tổ công tác có nhiệm vụ tư vấn cho Bộ trưởng Bộ Tài nguyên và Môi trường các chính sách,  giải pháp thực hiện xây dựng nền kinh tế tuần hoàn cho rác thải nhựa theo mô hình hợp tác công tư.
+			</div>
+
+			<div class="mt-[55px]">
+				<a href="<?= site_url('/gioi-thieu') ?>"
+					class="font-semibold text-[24px] bg-sea cursor-pointer rounded h-[50px] w-[200px] flex items-center justify-center text-white
+					hover:bg-transparent hover:border horver:border-white"
+				>
+					Xem thêm
+				</a>
 			</div>
 		</div>
 	</div>
