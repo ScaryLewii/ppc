@@ -28,16 +28,7 @@
 
 				<div class="pt-5 px-5 pb-8 flex flex-col gap-3">
 					<div class="uppercase font-semibold text-green">
-					<?php
-					$posttags = get_the_tags();
-					if ($posttags) :
-						foreach($posttags as $tag) : 
-					?>
-						<a href="<?= get_tag_link( $tag->term_id ) ?>" class="hover:text-orange text-[14px] font-semibold"><?= $tag->name ?></a>
-					<?php
-						endforeach;
-					endif;
-					?>
+						<a href="<?= get_permalink( get_option( 'page_for_posts' ) ) ?>" class="hover:text-orange text-[14px]">tin tức</a>
 					</div>
 
 					<a rel="noopener" href="<?= get_permalink() ?>">

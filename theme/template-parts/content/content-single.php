@@ -9,21 +9,18 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" class="max-w-[770px] mx-auto">
+	<?php if ( ! is_page() ) : ?>
+		<div class="entry-meta">
+			<?php ppc_entry_meta(); ?>
+		</div>
+	<?php endif; ?>
 
-	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-
-		<?php if ( ! is_page() ) : ?>
-			<div class="entry-meta">
-				<?php ppc_entry_meta(); ?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
+	<h1 class="text-[36px] text-green font-semibold my-[40px]"><?= get_the_title() ?></h1>
 
 	<?php ppc_post_thumbnail(); ?>
 
-	<div <?php ppc_content_class( 'entry-content' ); ?>>
+	<div class="flex-col gap-[60px] mt-[60px]">
 		<?php
 		the_content(
 			sprintf(
@@ -49,8 +46,6 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-		<?php ppc_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	<hr class="mt-[60px]">
 
 </article><!-- #post-${ID} -->

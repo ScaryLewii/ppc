@@ -15,7 +15,9 @@ get_header();
 <section class="py-20 bg-fixed bg-cover bg-[40%] bg-no-repeat min-h-[40vh] flex items-center relative"
 	style="background-image: url(<?= $bg ?>)"
 >
-	<div class="container">
+<div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
+
+	<div class="container z-[1]">
 		<h1 class="flex items-center gap-3 text-[36px] font-semibold text-white w-[950px] max-w-full">
 			<img src="<?= PPC_IMG . '/heading-tag-white.svg' ?>" class="mt-3" alt="tag" width="66px" height="63px">
 			<?= $title ?>
@@ -30,14 +32,14 @@ get_header();
 		<div class="flex gap-3 mt-10">
 			<?php foreach ($tags as $t) : ?>
 				<a href="<?= get_tag_link( $t->term_id ) ?>"
-					class="font-semibold text-[24px] bg-blue cursor-pointer hover:bg-orange rounded px-4 py-3 text-white"
+					class="font-semibold text-[16px] uppercase tracking-[1.6px] bg-blue cursor-pointer hover:bg-orange rounded px-4 py-3 text-white"
 				>
 					#<?= $t->name ?>
 				</a>
 			<?php endforeach; ?>
 		</div>
 	</div>
-	<div class="container grid grid-cols-4 gap-5">
+	<div class="container grid grid-cols-4 gap-[10px]">
 		<?php
 		while (have_posts()) :
 			the_post();
@@ -51,16 +53,7 @@ get_header();
 
 				<div class="pt-5 px-5 pb-8 flex flex-col gap-3">
 					<div class="uppercase font-semibold text-green">
-					<?php
-					$posttags = get_the_tags();
-					if ($posttags) :
-						foreach($posttags as $tag) : 
-					?>
-						<a href="<?= get_tag_link( $tag->term_id ) ?>" class="hover:text-orange text-[14px] font-semibold"><?= $tag->name ?></a>
-					<?php
-						endforeach;
-					endif;
-					?>
+						<a href="<?= get_permalink( get_option( 'page_for_posts' ) ) ?>" class="hover:text-orange text-[14px]">tin tức</a>
 					</div>
 
 					<a rel="noopener" href="<?= get_permalink() ?>">

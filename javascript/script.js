@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	document.querySelectorAll('.splide').forEach(el => {
 		new Splide( el, {
+			type: 'loop',
 			perPage: 5,
 			gap: '20px',
 			focus: 'center',

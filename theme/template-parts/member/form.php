@@ -1,6 +1,6 @@
 <section class="py-20 bg-light">
-	<div class="container">
-		<div class="bg-blue rounded-2xl overflow-hidden max-w-[960px] mx-auto">
+	<div class=" max-w-[960px] mx-auto">
+		<div class="bg-blue rounded-2xl overflow-hidden">
 			<h2 class="text-white text-[55px] bg-green font-semibold py-10 text-center">
 				Đăng ký thành viên
 			</h2>
@@ -14,13 +14,13 @@
 					<h3 class="font-semibold bg-orange py-2 rounded-t-2xl text-center text-white">ĐĂNG KÝ THÀNH VIÊN TẠI ĐÂY</h3>
 					<form class="w-full flex flex-col gap-[30px] p-10 bg-light rounded-b-2xl">
 						<label class="flex flex-col gap-2">
-								<span class="font-semibold">Tên đơn vị*</span>
-								<input placeholder="Tên đơn vị" class="bg-green px-4 py-3 rounded placeholder-white" />
+								<span class="text-blue">Tên đơn vị*</span>
+								<input placeholder="Tên đơn vị" class="bg-green px-4 py-3 rounded placeholder-white focus:bg-blue focus:outline-white" />
 							</label>
 
 							<label class="flex flex-col gap-2">
-								<span class="font-semibold">Email *</span>
-								<input placeholder="Email của bạn" class="bg-green px-4 py-3 rounded placeholder-white" />
+								<span class="text-blue">Email *</span>
+								<input placeholder="Email của bạn" class="bg-green px-4 py-3 rounded placeholder-white focus:bg-blue focus:outline-white" />
 							</label>
 
 							<div class="flex justify-end">

@@ -3,7 +3,7 @@
 		<div class="bg-green rounded-t-3xl py-10 border-b-8 border-orange">
 			<h2 class="text-[55px] font-semibold text-center">Trở thành thành viên</h2>
 		</div>
-		<div class="bg-blue rounded-b-3xl text-center text-[20px] pt-8 pb-16 px-32">
+		<div class="bg-blue rounded-b-3xl text-center text-[20px] leading-[32px] pt-8 pb-16 px-32">
 			<?= rwmb_meta('content-become-member', get_the_ID()) ?>
 		</div>
 
