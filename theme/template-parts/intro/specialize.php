@@ -4,7 +4,7 @@ $subtitle = rwmb_meta('subtitle_specialize');
 $items = rwmb_meta('item_specialize');
 ?>
 
-<section class="py-20 bg-green relative">
+<section class="py-20 bg-green relative px-[20px] lg:px-0">
 	<div class="flex justify-center items-center absolute left-1/2 -translate-x-1/2 -translate-y-1/2 top-0">
 		<img src="<?= PPC_IMG . '/heading-tag-orange.svg' ?>" alt="tag" width="66px" height="63px">
 		<span class="block w-[20px] h-[20px] rounded-full bg-blue"></span>
@@ -14,7 +14,7 @@ $items = rwmb_meta('item_specialize');
 	<div class="max-w-[950px] mx-auto">
 		<div class="flex flex-col gap-[100px]">
 			<header class="text-center text-white">
-				<h2 class="text-[55px] leading-[78px] font-[400]">
+				<h2 class="text-[30px] lg:text-[55px] leading-[78px] font-[400]">
 					<?= $title ?>
 				</h2>
 				<div class="text-[20px] leading-[30px] mt-8">
@@ -32,7 +32,7 @@ $items = rwmb_meta('item_specialize');
 
 						<div class="flex flex-col gap-[30px] my-[30px]">
 							<?php foreach ($item['content'] as $c) : ?>
-								<div class="flex items-center gap-[40px] text-[20px] px-[50px] text-green">
+								<div class="flex items-center gap-[20px] lg:gap-[40px] text-[20px] px-[20px] lg:px-[50px] text-green">
 									<img class="mt-2" src="<?= PPC_IMG . '/heading-tag-orange.svg' ?>" alt="tag" width="66px" height="63px">
 
 									<?= $c ?>

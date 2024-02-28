@@ -5,10 +5,10 @@ $content = rwmb_meta('content_coorperate');
 $items = rwmb_meta('item_coorperate');
 ?>
 
-<section class="py-20 bg-light">
+<section class="py-20 bg-light px-[20px] lg:px-0">
 	<div class="max-w-[800px] mx-auto">
 		<div class="flex flex-col gap-[80px]">
-			<h2 class="flex items-start gap-3 text-[55px] leading-[78px] font-[400] text-blue -ml-[76px]">
+			<h2 class="flex items-start gap-3 text-[30px] lg:text-[55px] leading-[78px] font-[400] text-blue -ml-[76px]">
 				<img src="<?= PPC_IMG . '/heading-tag-green.svg' ?>" class="mt-3" alt="tag" width="66px" height="63px">
 				Hợp tác Công Tư<br/> Quản Lý Rác Thải Nhựa
 			</h2>

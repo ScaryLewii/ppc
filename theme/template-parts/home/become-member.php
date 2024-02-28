@@ -1,9 +1,9 @@
-<section class="pt-20 pb-24">
+<section class="pt-20 pb-24 px-[20px] lg:px-0">
 	<div class="max-w-[950px] mx-auto text-white">
 		<div class="bg-green rounded-t-3xl py-10 border-b-8 border-orange">
-			<h2 class="text-[55px] font-[400] text-center">Trở thành thành viên</h2>
+			<h2 class="text-[30px] lg:text-[55px] font-[400] text-center">Trở thành thành viên</h2>
 		</div>
-		<div class="bg-blue rounded-b-3xl text-center text-[20px] leading-[32px] pt-8 pb-16 px-32">
+		<div class="bg-blue rounded-b-3xl text-center text-[20px] leading-[32px] pt-8 pb-16 px-[20px] lg:px-32">
 			<?= rwmb_meta('content-become-member', get_the_ID()) ?>
 		</div>
 

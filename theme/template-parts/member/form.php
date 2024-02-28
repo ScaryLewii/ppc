@@ -1,10 +1,10 @@
 <section class="py-20 bg-light">
 	<div class=" max-w-[960px] mx-auto">
 		<div class="bg-blue rounded-2xl overflow-hidden">
-			<h2 class="text-white text-[55px] bg-green font-[400] py-10 text-center">
+			<h2 class="text-white text-[30px] lg:text-[55px] bg-green font-[400] py-10 text-center">
 				Đăng ký thành viên
 			</h2>
-			<div class="p-16 pt-8 flex flex-col gap-10">
+			<div class="p-8 lg:p-16 pt-8 flex flex-col gap-10">
 				<div class="text-white text-[24px] p-5 text-center">
 					Tổ công tác hoan nghênh kết nạp các thành viên mới từ khu vực tư nhân, có cam kết phát triển bền vững mạnh mẽ và có thể cống hiến thúc đẩy triển khai các dự án kinh tế tuần hoàn tại Việt Nam. <br>
 					Để đăng ký trở thành thành viên Tổ hợp tác công tư (PPC), vui lòng gửi thư theo mẫu <a class="hover:text-orange" href="https://docs.google.com/document/d/17r2aPnCHpoRgInSs_vABn6oXF2Q04ZJI/edit">"tại đây"</a>.

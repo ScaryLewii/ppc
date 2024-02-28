@@ -1,6 +1,6 @@
 <section class="bg-green py-20">
-	<header class="flex items-center justify-between container text-white mb-10">
-		<h2 class="flex items-center gap-3 text-[55px] font-[400]">
+	<header class="flex flex-col lg:flex-row lg:items-center justify-between container text-white mb-10">
+		<h2 class="flex items-center gap-3 text-[30px] lg:text-[55px] font-[400]">
 			<img src="<?= PPC_IMG . '/heading-tag-orange.svg' ?>" alt="tag" width="60px" height="60px">
 			Dự án
 		</h2>
@@ -20,13 +20,13 @@
 				$projects->the_post();
 		?>
 
-			<article class="flex rounded-xl overflow-hidden max-h-[416px]">
-				<a rel="noopener" class="group overflow-hidden block w-1/3 border-r-8 border-blue" href="<?= get_permalink() ?>">
+			<article class="flex flex-col lg:flex-row rounded-xl overflow-hidden lg:max-h-[416px]">
+				<a rel="noopener" class="group overflow-hidden block w-full lg:w-1/3 border-r-0 border-blue max-h-[400px] lg:max-h-0 lg:border-r-8" href="<?= get_permalink() ?>">
 					<img class="group-hover:scale-110 h-full w-full object-cover" 
 						src="<?php the_post_thumbnail_url( 'full' ) ?>" alt="<?= get_the_title() ?>">
 				</a>
 
-				<div class="flex flex-col justify-between w-2/3">
+				<div class="flex flex-col justify-between w-full lg:w-2/3">
 					<span class="bg-orange text-white text-center text-xl font-[400] py-3">
 						<?= rwmb_meta('year') ?: date("Y") ?>
 					</span>

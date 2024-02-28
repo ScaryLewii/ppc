@@ -1,6 +1,6 @@
-<section class="py-20">
+<section class="py-20 px-[20px] lg:px-0">
 	<header class="flex items-center justify-between max-w-[950px] mx-auto text-blue mb-10">
-		<h2 class="flex items-center gap-3 text-[55px] font-[400]">
+		<h2 class="flex items-center gap-3 text-[30px] lg:text-[55px] font-[400]">
 			<img src="<?= PPC_IMG . '/heading-tag-green.svg' ?>" alt="tag" width="60px" height="60px">
 			Thành viên
 		</h2>

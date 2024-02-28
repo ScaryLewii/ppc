@@ -45,7 +45,7 @@
 
 <?php if (is_single()) : ?>
 
-	<section class="sticky top-0 bg-blue text-white h-[50px] flex items-center">
+	<section class="sticky top-0 bg-blue text-white h-[50px] hidden lg:flex items-center">
 		<div class="container">
 			<div class="text-[14px] flex gap-[8px]">
 				<a href="<?= site_url() ?>">Trang chủ</a>

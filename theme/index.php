@@ -29,7 +29,7 @@ get_header();
 	<div class="container mb-20">
 		<h2 class="text-green font-[400]">Từ khóa</h2>
 
-		<div class="flex gap-3 mt-10">
+		<div class="flex gap-3 mt-10 flex-wrap">
 			<?php foreach ($tags as $t) : ?>
 				<a href="<?= get_tag_link( $t->term_id ) ?>"
 					class="font-[400] text-[16px] uppercase tracking-[1.6px] bg-blue cursor-pointer hover:bg-orange rounded px-4 py-3 text-white"
@@ -39,7 +39,7 @@ get_header();
 			<?php endforeach; ?>
 		</div>
 	</div>
-	<div class="container grid grid-cols-4 gap-[10px]">
+	<div class="container grid lg:grid-cols-4 gap-[20px]">
 		<?php
 		while (have_posts()) :
 			the_post();

@@ -3,15 +3,15 @@ $title = rwmb_meta('title_mission');
 $content = rwmb_meta('content_mission');
 ?>
 
-<section class="pb-20 bg-light">
+<section class="pb-20 bg-light px-[20px] lg:px-0">
 	<div class="max-w-[800px] mx-auto">
 		<div class="flex flex-col gap-[100px]">
-			<h2 class="flex items-start gap-3 text-[55px] leading-[78px] font-[400] text-blue -ml-[76px]">
+			<h2 class="flex items-start gap-3 text-[30px] lg:text-[55px] leading-[78px] font-[400] text-blue -ml-[76px]">
 				<img src="<?= PPC_IMG . '/heading-tag-green.svg' ?>" class="mt-3" alt="tag" width="66px" height="63px">
 				<?= $title ?>
 			</h2>
 
-			<div class="grid lg:grid-cols-2 gap-10">
+			<div class="grid lg:grid-cols-2 gap-[80px] lg:gap-10">
 				<?php foreach ($content as $c) : ?>
 					<div class="bg-orange text-white rounded-2xl relative min-h-[468px]">
 						<div class="absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2

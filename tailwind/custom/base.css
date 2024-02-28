@@ -80,3 +80,10 @@ a {
 .splide__arrow--next {
 	right: -3em;
 }
+
+@media (max-width: 768px) {
+	.lang-switcher {
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+}

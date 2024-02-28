@@ -11,7 +11,7 @@ endforeach;
 >
 	<div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
 	<div class="container relative z-10">
-		<h2 class="text-white font-[400] text-[55px] leading-[1.2em] lg:max-w-[767px] mb-[51px]">
+		<h2 class="text-white font-[400] text-[30px] lg:text-[55px] leading-[1.2em] lg:max-w-[767px] mb-[51px]">
 			<?= rwmb_meta('title-hero') ?>
 		</h2>
 

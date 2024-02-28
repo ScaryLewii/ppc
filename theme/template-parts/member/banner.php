@@ -12,7 +12,7 @@ $title = rwmb_meta( 'title_become_member', ['object_type' => 'setting'], 'custom
 >
 	<div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
 	<div class="container z-[1]">
-		<h1 class="text-[55px] leading-[66px] tracking-[1.1px] font-[400] text-white text-center">
+		<h1 class="text-[30px] lg:text-[55px] leading-[66px] tracking-[1.1px] font-[400] text-white text-center">
 			<?= $title ?>
 		</h1>
 	</div>

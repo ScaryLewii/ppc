@@ -42,7 +42,7 @@
 </section>
 
 <section class="py-20 text-blue bg-light">
-	<div class="container grid grid-cols-2 gap-[100px]">
+	<div class="container grid lg:grid-cols-2 gap-[100px]">
 		<div>
 			<img class="w-28" src="<?= site_url('/wp-content/uploads/2024/01/Logo-Unilever-Te.png') ?>" alt="UNILEVER">
 			<div class="text-18px font-[400] my-5">Thông tin liên hệ của Unilever</div>

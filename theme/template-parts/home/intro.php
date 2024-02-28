@@ -7,14 +7,14 @@ endforeach;
 ?>
 
 
-<section class="grid grid-cols-2">
+<section class="grid lg:grid-cols-2">
 <div class="bg-fixed bg-cover bg-center bg-no-repeat"
 		style="background-image: url(<?= $bg ?>)"
 	>
 
 	</div>
 
-	<div class="bg-blue text-white p-20 min-h-[100vh] flex items-center">
+	<div class="bg-blue text-white px-[20px] py-[40px] lg:p-20 min-h-[100vh] flex items-center">
 		<div>
 			<span class="text-[16px] tracking-[1.6px] font-[400]">GIỚI THIỆU</span>
 			<h3 class="text-[36px] font-[400] leading-[47px] mt-[10px]">Hợp tác Công - Tư (PPC) thúc đẩy xây dựng nền kinh tế tuần hoàn để xử lý vấn đề rác thải nhựa tại Việt Nam</h3>

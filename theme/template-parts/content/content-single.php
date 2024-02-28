@@ -16,7 +16,7 @@
 		</div>
 	<?php endif; ?>
 
-	<h1 class="text-[36px] text-green font-[400] my-[40px]"><?= get_the_title() ?></h1>
+	<h1 class="text-[36px] text-green font-[400] mb-[40px] lg:my-[40px]"><?= get_the_title() ?></h1>
 
 	<?php ppc_post_thumbnail(); ?>
 

@@ -1,6 +1,6 @@
 <section class="bg-light py-[100px]">
-	<header class="container flex items-center justify-between text-blue mb-10">
-		<h2 class="flex items-center gap-3 text-[55px] font-[400]">
+	<header class="container flex flex-col lg:flex-row lg:items-center justify-between text-blue mb-10">
+		<h2 class="flex items-center gap-3 text-[30px] lg:text-[55px] font-[400]">
 			<img src="<?= PPC_IMG . '/heading-tag-green.svg' ?>" alt="tag" width="60px" height="60px">
 			Tin tức
 		</h2>
@@ -8,7 +8,7 @@
 		<span class="text-xl">​Xem những thông tin mới nhất từ PPC</span>
 	</header>
 
-	<div class="container grid grid-cols-4 gap-[10px]">
+	<div class="container grid lg:grid-cols-4 gap-[20px]">
 		<?php
 		$posts = new WP_Query( [
 			'post_type'      => 'post',
