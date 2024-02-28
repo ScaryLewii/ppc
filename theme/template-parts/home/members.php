@@ -1,6 +1,6 @@
 <section class="py-20">
 	<header class="flex items-center justify-between max-w-[950px] mx-auto text-blue mb-10">
-		<h2 class="flex items-center gap-3 text-[55px] font-semibold">
+		<h2 class="flex items-center gap-3 text-[55px] font-[400]">
 			<img src="<?= PPC_IMG . '/heading-tag-green.svg' ?>" alt="tag" width="60px" height="60px">
 			Thành viên
 		</h2>
@@ -14,11 +14,11 @@
 		?>
 		<div>
 			<?php if ( isset($m['title']) ) : ?>
-				<h3 class="font-semibold text-[20px] mb-10 uppercase text-center border-b-2 border-blue pb-1"><?= $m['title'] ?></h3>
+				<h3 class="font-[400] text-[20px] mb-10 uppercase text-center border-b-2 border-blue pb-1"><?= $m['title'] ?></h3>
 			<?php endif; ?>
 
 			<?php if ( isset($m['subtitle']) ) : ?>
-				<h4 class="text-green text-center mb-[50px] font-semibold text-[20px]">
+				<h4 class="text-green text-center mb-[50px] font-[400] text-[20px]">
 					<?= $m['subtitle'] ?>
 				</h4>
 			<?php endif; ?>

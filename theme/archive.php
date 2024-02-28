@@ -15,7 +15,7 @@ get_header();
 <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
 
 <div class="container z-[1]">
-		<h1 class="flex items-center gap-3 text-[36px] font-semibold text-white w-[950px] max-w-full">
+		<h1 class="flex items-center gap-3 text-[36px] font-[400] text-white w-[950px] max-w-full">
 			<img src="<?= PPC_IMG . '/heading-tag-white.svg' ?>" class="mt-3" alt="tag" width="66px" height="63px">
 			<?= $title ?>
 		</h1>
@@ -36,13 +36,13 @@ get_header();
 				</a>
 
 				<div class="pt-5 px-5 pb-8 flex flex-col gap-3">
-					<div class="uppercase font-semibold text-green">
+					<div class="uppercase font-[400] text-green">
 					<?php
 					$posttags = get_the_tags();
 					if ($posttags) :
 						foreach($posttags as $tag) : 
 					?>
-						<a href="<?= get_tag_link( $tag->term_id ) ?>" class="hover:text-orange text-[14px] font-semibold"><?= $tag->name ?></a>
+						<a href="<?= get_tag_link( $tag->term_id ) ?>" class="hover:text-orange text-[14px] font-[400]"><?= $tag->name ?></a>
 					<?php
 						endforeach;
 					endif;
@@ -50,7 +50,7 @@ get_header();
 					</div>
 
 					<a rel="noopener" href="<?= get_permalink() ?>">
-						<h2 class="text-blue text-[20px] font-semibold hover:text-orange line-clamp-3"><?= get_the_title() ?></h2>
+						<h2 class="text-blue text-[20px] font-[400] hover:text-orange line-clamp-3"><?= get_the_title() ?></h2>
 					</a>
 				</div>
 			</article>

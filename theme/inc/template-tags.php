@@ -71,7 +71,7 @@ if ( ! function_exists( 'ppc_entry_meta' ) ) :
 		if ( 'post' === get_post_type() ) {
 
 			// Posted by.
-			ppc_posted_by();
+			// ppc_posted_by();
 
 			// Posted on.
 			ppc_posted_on();
@@ -79,24 +79,24 @@ if ( ! function_exists( 'ppc_entry_meta' ) ) :
 			/* translators: used between list items, there is a space after the comma. */
 			$categories_list = get_the_category_list( __( ', ', 'ppc' ) );
 			if ( $categories_list ) {
-				printf(
-				/* translators: 1: posted in label, only visible to screen readers. 2: list of categories. */
-					'<span class="sr-only">%1$s</span>%2$s',
-					esc_html__( 'Posted in', 'ppc' ),
-					$categories_list // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-				);
+				// printf(
+				// /* translators: 1: posted in label, only visible to screen readers. 2: list of categories. */
+				// 	'<span class="sr-only">%1$s</span>%2$s',
+				// 	esc_html__( 'Posted in', 'ppc' ),
+				// 	$categories_list // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+				// );
 			}
 
 			/* translators: used between list items, there is a space after the comma. */
 			$tags_list = get_the_tag_list( '', __( ', ', 'ppc' ) );
-			if ( $tags_list ) {
-				printf(
-				/* translators: 1: tags label, only visible to screen readers. 2: list of tags. */
-					'<span class="sr-only">%1$s</span>%2$s',
-					esc_html__( 'Tags:', 'ppc' ),
-					$tags_list // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-				);
-			}
+			// if ( $tags_list ) {
+			// 	printf(
+			// 	/* translators: 1: tags label, only visible to screen readers. 2: list of tags. */
+			// 		'<span class="sr-only">%1$s</span>%2$s',
+			// 		esc_html__( 'Tags:', 'ppc' ),
+			// 		$tags_list // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+			// 	);
+			// }
 		}
 
 		// Comment count.
@@ -105,20 +105,20 @@ if ( ! function_exists( 'ppc_entry_meta' ) ) :
 		}
 
 		// Edit post link.
-		edit_post_link(
-			sprintf(
-				wp_kses(
-				/* translators: %s: Name of current post. Only visible to screen readers. */
-					__( 'Edit <span class="sr-only">%s</span>', 'ppc' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				get_the_title()
-			)
-		);
+		// edit_post_link(
+		// 	sprintf(
+		// 		wp_kses(
+		// 		/* translators: %s: Name of current post. Only visible to screen readers. */
+		// 			__( 'Edit <span class="sr-only">%s</span>', 'ppc' ),
+		// 			array(
+		// 				'span' => array(
+		// 					'class' => array(),
+		// 				),
+		// 			)
+		// 		),
+		// 		get_the_title()
+		// 	)
+		// );
 	}
 endif;
 

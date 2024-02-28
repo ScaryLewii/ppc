@@ -11,7 +11,7 @@
 
 <section class="bg-green text-white py-20 text-lg">
 	<div class="container">
-		<h2 class="font-semibold text-[36px]">Cập nhật tin tức</h2>
+		<h2 class="font-[400] text-[36px]">Cập nhật tin tức</h2>
 	</div>
 	<div class="container mt-10 flex flex-wrap gap-5 lg:gap-0">
 		<div class="w-full lg:w-1/2">
@@ -24,16 +24,16 @@
 		<form class="w-full lg:w-1/2 flex flex-col gap-10">
 			<label class="flex flex-col gap-2">
 				<span class="text-[20px]">Họ và tên *</span>
-				<input placeholder="Tên của bạn" class="bg-orange px-4 py-3 rounded placeholder-white font-semibold hover:bg-transparent hover:border hover:border-white" />
+				<input placeholder="Tên của bạn" class="bg-orange px-4 py-3 rounded placeholder-white font-[400] hover:bg-transparent hover:border hover:border-white" />
 			</label>
 
 			<label class="flex flex-col gap-2">
 				<span class="text-[20px]">Email *</span>
-				<input placeholder="Email của bạn" class="bg-orange px-4 py-3 rounded placeholder-white font-semibold hover:bg-transparent hover:border hover:border-white" />
+				<input placeholder="Email của bạn" class="bg-orange px-4 py-3 rounded placeholder-white font-[400] hover:bg-transparent hover:border hover:border-white" />
 			</label>
 
 			<div class="flex justify-end">
-				<button type="submit" class="font-semibold text-[24px] bg-sea hover:bg-orange rounded flex justify-center items-center w-[200px] h-[50px]
+				<button type="submit" class="font-[400] text-[24px] bg-sea hover:bg-orange rounded flex justify-center items-center w-[200px] h-[50px]
 					hover:bg-transparent hover:border hover:border-white
 				">Gửi thông tin</button>
 			</div>
@@ -45,7 +45,7 @@
 	<div class="container grid grid-cols-2 gap-[100px]">
 		<div>
 			<img class="w-28" src="<?= site_url('/wp-content/uploads/2024/01/Logo-Unilever-Te.png') ?>" alt="UNILEVER">
-			<div class="text-18px font-semibold my-5">Thông tin liên hệ của Unilever</div>
+			<div class="text-18px font-[400] my-5">Thông tin liên hệ của Unilever</div>
 			<h2 class="text-[18px] uppercase my-4">UNILEVER (VIỆT NAM)</h2>
 			<div>
 			Số 156 Nguyễn Lương Bằng, Phường Tân Phú,<br/>
@@ -72,7 +72,7 @@
 		<div>
 			<img class="w-28" src="<?= site_url('/wp-content/uploads/2024/01/99e640_36546d8ca1a04158882123d76ea285ffmv2.webp') ?>" alt="Tai nguyen va moi truong">
 			
-			<div class="text-18px font-semibold my-5">Thông tin liên hệ của Bộ TNMT</div>
+			<div class="text-18px font-[400] my-5">Thông tin liên hệ của Bộ TNMT</div>
 			
 			<h2 class="text-[18px] uppercase my-4">BỘ TÀI NGUYÊN VÀ MÔI TRƯỜNG</h2>
 			<div>Số 10 Tôn Thất Thuyết, Nam Từ Liêm,<br/> Hà Nội, Việt Nam</div>

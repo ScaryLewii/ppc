@@ -12,17 +12,17 @@ $items = rwmb_meta( 'item_member' );
 
 	<div class="max-w-[950px] mx-auto">
 		<div class="flex flex-col gap-[80px]">
-			<h2 class="text-center text-[36px] leading-[46px] font-semibold text-white max-w-[655px] mx-auto">
+			<h2 class="text-center text-[36px] leading-[46px] font-[400] text-white max-w-[655px] mx-auto">
 				<?= $title ?>
 			</h2>
 
 			<div class="max-w-[800px] mx-auto flex flex-col gap-[80px]">
 				<?php foreach ($items as $item) : ?>
 					<figure class="rounded-xl bg-light overflow-hidden">
-						<h3 class="bg-orange text-center font-semibold text-white text-2xl py-2 px-2"><?= $item['title'] ?></h3>
+						<h3 class="bg-orange text-center font-[400] text-white text-[20px] py-2 px-2"><?= $item['title'] ?></h3>
 
 						<?php if (isset($item['description'])) : ?>
-							<div class="px-20 py-10 italic text-orange text-xl">
+							<div class="px-20 italic text-orange text-[20px] text-center leading-[30px] <?= isset($item['content']) ? 'pt-10' : 'py-10' ?>">
 								<?= $item['description'] ?>
 							</div>
 						<?php endif; ?>

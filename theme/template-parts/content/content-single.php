@@ -16,11 +16,11 @@
 		</div>
 	<?php endif; ?>
 
-	<h1 class="text-[36px] text-green font-semibold my-[40px]"><?= get_the_title() ?></h1>
+	<h1 class="text-[36px] text-green font-[400] my-[40px]"><?= get_the_title() ?></h1>
 
 	<?php ppc_post_thumbnail(); ?>
 
-	<div class="flex-col gap-[60px] mt-[60px]">
+	<div class="flex-col gap-[60px] mt-[60px] prose">
 		<?php
 		the_content(
 			sprintf(

@@ -12,7 +12,7 @@
 <header id="masthead" class="sticky top-0 bg-green h-[90px] flex items-center z-50 shadow-md">
 	<div class="container flex justify-between items-center text-white">
 
-		<a class="font-semibold text-2xl" href="<?= site_url() ?>">
+		<a class="font-[400] text-2xl" href="<?= site_url() ?>">
 			PPC VIETNAM
 		</a>
 
