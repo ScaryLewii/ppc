@@ -15,7 +15,7 @@ if ( ! defined( 'PPC_VERSION' ) ) {
 	 * to create your production build, the value below will be replaced in the
 	 * generated zip file with a timestamp, converted to base 36.
 	 */
-	define( 'PPC_VERSION', '0.1.1' );
+	define( 'PPC_VERSION', '0.1.4' );
 	define( 'PPC_IMG', get_template_directory_uri() . '/images' );
 }
 

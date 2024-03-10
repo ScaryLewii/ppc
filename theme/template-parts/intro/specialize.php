@@ -14,13 +14,17 @@ $items = rwmb_meta('item_specialize');
 	<div class="max-w-[950px] mx-auto">
 		<div class="flex flex-col gap-[100px]">
 			<header class="text-center text-white">
-				<h2 class="text-[30px] lg:text-[55px] leading-[78px] font-[400]">
+				<h2 class="text-[36px] lg:text-[55px] leading-[78px] font-[400]">
 					<?= $title ?>
 				</h2>
-				<div class="text-[20px] leading-[30px] mt-8">
+				<div class="text-[20px] leading-[30px] mt-8 hidden lg:block">
 					Các thành viên Tổ công tác được tổ chức
 					<br>
 					thành 04 nhóm chuyên môn
+				</div>
+
+				<div class="text-[20px] leading-[30px] mt-8 block lg:hidden">
+					Các thành viên Tổ công tác được tổ chức thành 04 nhóm chuyên môn
 				</div>
 			</header>
 

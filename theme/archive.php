@@ -15,8 +15,8 @@ get_header();
 <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
 
 <div class="container z-[1]">
-		<h1 class="flex items-center gap-3 text-[36px] font-[400] text-white w-[950px] max-w-full">
-			<img src="<?= PPC_IMG . '/heading-tag-white.svg' ?>" class="mt-3" alt="tag" width="66px" height="63px">
+		<h1 class="flex items-center flex-col lg:flex-row gap-3 text-[36px] font-[400] text-white w-[950px] max-w-full">
+			<img src="<?= PPC_IMG . '/heading-tag-white.svg' ?>" class="mt-3 rotate-90 lg:rotate-0" alt="tag" width="66px" height="63px">
 			<?= $title ?>
 		</h1>
 	</div>

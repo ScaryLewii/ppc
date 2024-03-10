@@ -6,8 +6,8 @@ $content = rwmb_meta('content_mission');
 <section class="pb-20 bg-light px-[20px] lg:px-0">
 	<div class="max-w-[800px] mx-auto">
 		<div class="flex flex-col gap-[100px]">
-			<h2 class="flex items-start gap-3 text-[30px] lg:text-[55px] leading-[78px] font-[400] text-blue -ml-[76px]">
-				<img src="<?= PPC_IMG . '/heading-tag-green.svg' ?>" class="mt-3" alt="tag" width="66px" height="63px">
+			<h2 class="flex items-center lg:items-start flex-col lg:flex-row gap-3 text-[36px] lg:text-[55px] leading-[78px] font-[400] text-blue lg:-ml-[76px]">
+				<img src="<?= PPC_IMG . '/heading-tag-green.svg' ?>" class="mt-3 rotate-90 lg:rotate-0" alt="tag" width="66px" height="63px">
 				<?= $title ?>
 			</h2>
 
@@ -22,7 +22,7 @@ $content = rwmb_meta('content_mission');
 							/>
 						</div>
 
-						<div class="flex flex-col px-[42px] pt-[70px] pb-[48px]">
+						<div class="flex flex-col px-[42px] pt-[70px] pb-[48px] text-center lg:text-left">
 							<?= $c ?>
 						</div>
 					</div>

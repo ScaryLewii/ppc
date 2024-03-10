@@ -27,8 +27,8 @@ get_header();
 <?php if ( get_post_type( get_the_ID() ) === 'post' ) : ?>
 
 	<section class="bg-[#f7f7ef] py-[100px]">
-	<header class="container flex items-center justify-between text-blue mb-10">
-		<h2 class="flex items-center gap-3 text-[30px] lg:text-[55px] font-[400]">
+	<header class="container flex items-center justify-center lg:justify-between text-blue mb-10">
+		<h2 class="flex flex-col lg:flex-row items-center gap-3 text-[36px] lg:text-[55px] font-[400]  [&>img]:rotate-90 lg:[&>img]:rotate-0">
 			<img src="<?= PPC_IMG . '/heading-tag-green.svg' ?>" alt="tag" width="60px" height="60px">
 			Xem thêm
 		</h2>

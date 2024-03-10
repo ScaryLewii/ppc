@@ -1,11 +1,11 @@
-<section class="bg-light py-[100px]">
-	<header class="container flex flex-col lg:flex-row lg:items-center justify-between text-blue mb-10">
-		<h2 class="flex items-center gap-3 text-[30px] lg:text-[55px] font-[400]">
+<section class="bg-light py-[40px] lg:py-[100px]">
+	<header class="container flex flex-col lg:flex-row lg:items-center justify-between text-blue mb-10 text-center lg:text-left">
+		<h2 class="flex flex-col lg:flex-row items-center gap-3 text-[36px] lg:text-[55px] font-[400]  [&>img]:rotate-90 lg:[&>img]:rotate-0">
 			<img src="<?= PPC_IMG . '/heading-tag-green.svg' ?>" alt="tag" width="60px" height="60px">
 			Tin tức
 		</h2>
 
-		<span class="text-xl">​Xem những thông tin mới nhất từ PPC</span>
+		<a class="text-[20px]" href="<?= get_permalink( get_option( 'page_for_posts' ) ) ?>">​Xem những thông tin mới nhất từ PPC</a>
 	</header>
 
 	<div class="container grid lg:grid-cols-4 gap-[20px]">
@@ -45,7 +45,7 @@
 		?>
 	</div>
 
-	<footer class="text-center mt-20">
+	<footer class="text-center mt-[40px] lg:mt-20">
 		<a href="<?= get_permalink( get_option( 'page_for_posts' ) ) ?>"
 			class="font-[400] text-[24px] bg-green cursor-pointer rounded h-[50px] w-[200px] flex items-center justify-center mx-auto text-white
 			hover:bg-transparent hover:text-green hover:border border-green

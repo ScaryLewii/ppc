@@ -59,18 +59,21 @@ a {
 .mobile-shown {
 	display: block !important;
 	position: absolute;
-	top: 100%;
+	top: calc(100% - 1px);
 	left: 0;
-	background: #f39500;
+	background: #08a045;
 	width: 100%;
+	height: 100dvh;
 }
 
 .mobile-shown .menu {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	gap: 30px;
 	padding: 20px;
 	width: 100%;
+	justify-content: center;
+	text-align: center;
 }
 
 .splide__arrow--prev {
@@ -83,7 +86,9 @@ a {
 
 @media (max-width: 768px) {
 	.lang-switcher {
-		padding-left: 20px;
-		padding-bottom: 20px;
+		margin-top: 20px;
+		font-size: 24px;
+		text-align: center;
+		justify-content: center;
 	}
 }

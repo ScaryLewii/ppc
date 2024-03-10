@@ -16,8 +16,8 @@ get_header();
 <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
 
 	<div class="container z-[1]">
-		<h1 class="flex items-center gap-3 text-[36px] font-[400] text-white w-[950px] max-w-full">
-			<img src="<?= PPC_IMG . '/heading-tag-white.svg' ?>" class="mt-3" alt="tag" width="66px" height="63px">
+		<h1 class="flex items-center flex-col lg:flex-row gap-3 text-[36px] font-[400] text-white w-[950px] max-w-full">
+			<img src="<?= PPC_IMG . '/heading-tag-white.svg' ?>" class="mt-3 rotate-90 lg:rotate-0" alt="tag" width="66px" height="63px">
 			<?= $title ?>
 		</h1>
 	</div>
@@ -27,14 +27,14 @@ get_header();
 	<div class="container mb-20">
 		<h2 class="text-green font-[400] uppercase text-[16px] tracking-[1.6px]">Dự án điển hình</h2>
 	</div>
-	<div class="container grid gap-[60px]">
+	<div class="container grid gap-[40px]">
 		<?php
 		while (have_posts()) :
 			the_post();
 		?>
 
 			<article class="flex flex-col lg:flex-row rounded-xl overflow-hidden lg:max-h-[416px]">
-				<a rel="noopener" class="group overflow-hidden block w-full lg:w-1/3 border-r-0 border-blue max-h-[400px] lg:max-h-0 lg:border-r-8" href="<?= get_permalink() ?>">
+				<a rel="noopener" class="group overflow-hidden block w-full lg:w-1/3 border-r-0 border-blue max-h-[400px] lg:max-h-none lg:border-r-8" href="<?= get_permalink() ?>">
 					<img class="group-hover:scale-110 h-full w-full object-cover" 
 						src="<?php the_post_thumbnail_url( 'full' ) ?>" alt="<?= get_the_title() ?>">
 				</a>
@@ -46,7 +46,7 @@ get_header();
 
 					<div class="bg-white px-10 py-5 grow flex flex-col justify-center gap-4">
 						<a rel="noopener" class="" href="<?= get_permalink() ?>">
-							<h2 class="text-blue text-[36px] font-[400] hover:text-orange line-clamp-3 leading-[46px]"><?= get_the_title() ?></h2>
+							<h2 class="text-blue text-[20px] lg:text-[36px] font-[500] hover:text-orange line-clamp-3 lg:leading-[46px]"><?= get_the_title() ?></h2>
 						</a>
 						<p class="line-clamp-3 text-green"><?= get_the_excerpt() ?></p>
 					</div>

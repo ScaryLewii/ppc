@@ -11,9 +11,9 @@ $title = rwmb_meta( 'title_intro', ['object_type' => 'setting'], 'custom-setting
 	style="background-image: url(<?= $bg ?>)"
 >
 	<div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
-	<div class="container z-[1]">
-		<h1 class="flex items-center gap-3 text-[36px] font-[400] text-white w-[950px] max-w-full">
-			<img src="<?= PPC_IMG . '/heading-tag-white.svg' ?>" class="mt-3" alt="tag" width="66px" height="63px">
+	<div class="max-w-full lg:max-w-[800px] mx-auto z-[1]">
+		<h1 class="flex items-center gap-3 flex-col lg:flex-row text-[36px] font-[400] text-white w-[950px] max-w-full lg:-ml-[76px]">
+			<img src="<?= PPC_IMG . '/heading-tag-white.svg' ?>" class="mt-3 rotate-90 lg:rotate-0" alt="tag" width="66px" height="63px">
 			<?= $title ?>
 		</h1>
 	</div>

@@ -24,6 +24,13 @@ document.addEventListener("DOMContentLoaded", () => {
 			perPage: 5,
 			gap: '20px',
 			focus: 'center',
+			breakpoints: {
+				768: {
+					perPage: 2,
+					focus: 1,
+					arrows: false
+				}
+			}
 		} ).mount();
 	})
 })
